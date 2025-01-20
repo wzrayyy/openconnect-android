@@ -1,5 +1,5 @@
 [versions]
-activityCompose = "1.9.3"
+activityCompose = "1.10.0"
 agp = "8.8.0"
 compose-destinations = "2.1.0-beta15"
 composeBom = "2024.12.01"
