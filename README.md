@@ -1,7 +1,10 @@
-# OpenConnect for Android
+<h1 align="center">
+    <img src="/misc/gh-logo-dark.png#gh-dark-mode-only" width="384px"></img>
+    <img src="/misc/gh-logo-light.png#gh-light-mode-only" width="384px"></img>
+</h1>
+
 
 This version is still **UNDER DEVELOPMENT**. Check [the official repository](https://gitlab.com/openconnect/ics-openconnect) for the legacy (but working on latest Android) version.
-
 
 ## Building
 
@@ -18,3 +21,4 @@ find -name '*.apk' | head -1 | xargs -I{} cp {} OpenConnect.apk
 # install
 adb install OpenConnect.apk
 ```
+
