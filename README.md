@@ -1,3 +1,5 @@
+
+
 <h1 align="center">
     <img src="/misc/gh-logo-dark.png#gh-dark-mode-only" width="384px"></img>
     <img src="/misc/gh-logo-light.png#gh-light-mode-only" width="384px"></img>
@@ -12,7 +14,7 @@ This version is still **UNDER DEVELOPMENT**. Check [the official repository](htt
 # clone the repo with submodules
 git clone --recurse-submodules https://github.com/wzrayyy/openconnect-android
 cd openconnect-android
-# make external dependencies (curl and openconnect)
+# make external dependencies (curl, openconnect, and stoken)
 make -C external
 # build apk
 ./gradlew assembleDebug
@@ -21,4 +23,3 @@ find -name '*.apk' | head -1 | xargs -I{} cp {} OpenConnect.apk
 # install
 adb install OpenConnect.apk
 ```
-
